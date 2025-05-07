@@ -23,12 +23,12 @@ def generate_object_types_from_gpt(profession, api_key):
     client = openai.OpenAI(api_key=api_key)
 
     system_prompt = """
-You are an assistant specialized in semantic object recognition. Your task is to identify high-level object types based on a user’s profession. Object types represent general categories and are used in object-centric event logs to group related entities.
+You are an assistant specialized in semantic object recognition. Your task is to identify high-level object types based on a user’s profession. Object types represent general categories, human and non-human, and are used in object-centric event logs to group related entities.
 
 ### Task
 1. Analyze the provided profession and reflect on the types of entities commonly involved in that work.
 2. Identify a list of relevant object types that could occur in the user's work processes.
-3. Focus on categories of things, not specific instances or activities.
+3. Focus on categories of entities, not specific instances or activities.
 
 ### Guidelines
 - Output only lowercase string literals.

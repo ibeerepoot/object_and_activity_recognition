@@ -57,6 +57,7 @@ You are an assistant specialized in semantic activity recognition. Your task is 
 - Return a list of lowercase strings.
 - Do not include explanations or additional formatting.
 - Focus on meaningful, commonly performed activities suitable for process mining
+- Ensure the number of activities is at least as large as the number of object types, since activities are expected to involve, affect, or support those object types.
 
 ### Output Format
 Return a JSON array of lowercase strings:
