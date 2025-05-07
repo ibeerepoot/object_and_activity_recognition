@@ -6,7 +6,7 @@ st.set_page_config(page_title="Home", page_icon="🏠", layout="centered", initi
 st.title("👋 Welcome!")
 
 st.markdown("""
-### Welcome to the Interactive Object and Activity Recognition App
+### To the Interactive Object and Activity Recognition App
 
 This application is designed to help users identify **object types**, **activities**, and **objects** from unstructured or semi-structured textual data.  
 You will be guided through a series of steps that support the interactive discovery of these elements using **GPT-4.1** and **your own domain knowledge**.
@@ -14,12 +14,15 @@ You will be guided through a series of steps that support the interactive discov
 #### 🔒 Data Privacy
 - This is a **local Streamlit app**: none of your data is sent to any external server other than for GPT-4.1 completions.
 - Your data is used only within this session and is **not stored or collected** beyond your current use.
-- Please complete all steps **in one sitting** and download your data before closing the app or refreshing the page.
+- From the Tockler data you will upload, we will filter out all titles that occur on only one day, and then use the 500 most frequently occurring titles for a call to GPT-4.1. 
 - Calls to GPT-4.1 are made securely and **not used for training** by OpenAI.
+- Please complete all steps **in one sitting** and download your data before closing the app or refreshing the page.
 
 #### 🧪 Evaluation Participants
 If you are taking part in the research evaluation led by *Iris Beerepoot, Vinicius Stein Dani,* and *Xixi Lu*,  
-please follow the app to the final step (**Step 5**) where you can view and download your results.  
+please follow the app to the final step (**Step 5**) where you can view and download your results. 
+These results will contain the generated object types, activities and objects, as well as the edits you made. 
+In addition, we will ask you to verify 10 titles that GPT-4.1 associated with one or more activities and objects, and store the results.
 Once downloaded, you are kindly requested to send the resulting JSON file to the researchers manually.  
 **No data is submitted automatically.** 
 
