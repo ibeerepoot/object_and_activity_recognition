@@ -36,7 +36,8 @@ st.title("Step 5: Export Your Data")
 st.markdown("You can now download the full record of your results from steps 1 through 4.")
 
 st.subheader("📄 Preview of Your Data")
-st.json(export_data)
+with st.expander("Click to expand and preview the full data", expanded=False):
+    st.json(export_data)
 
 st.download_button(
     label="📥 Download Your Data as JSON",
