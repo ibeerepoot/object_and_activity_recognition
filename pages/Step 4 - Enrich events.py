@@ -4,6 +4,7 @@ import pandas as pd
 import json
 import random
 import math
+import collections
 
 # --- Page Setup ---
 st.set_page_config(page_title="Step 4: Enrich Events", layout="centered", initial_sidebar_state="collapsed")
@@ -24,7 +25,7 @@ st.markdown("""
 st.title("Step 4: Enrich Events")
 
 st.markdown("""
-In this final step, we'll enrich your window titles with the most likely associated objects and activities using GPT-4.1.
+In this final step, we'll associate your window titles with the most likely objects and activities using GPT-4.1.
 You will be shown a set of random examples for review and correction. 
 Please check if you agree with the associated activities and objects and edit them where necessary, before confirming.
 """)
@@ -91,14 +92,10 @@ Titles: {json.dumps(batch_titles)}
         )
         output = response.choices[0].message.content.strip()
 
-        # Extract the first JSON block if multiple outputs are present
         if "```json" in output:
             output = output.split("```json")[1].split("```", 1)[0].strip()
         elif "```" in output:
             output = output.split("```", 1)[1].split("```", 1)[0].strip()
-
-        #st.markdown("**🔎 Raw GPT Output:**")
-        #st.code(output, language="json")
 
         return json.loads(output)
     except Exception as e:
@@ -122,9 +119,6 @@ if "step4_gpt_enrichment" not in st.session_state:
                 valid = [item for item in enriched if item.get("activities") and item.get("objects")]
                 all_valid.extend(valid)
 
-            if len(all_valid) >= 10:
-                break
-
         if not all_valid:
             st.warning("⚠️ GPT did not find any titles with both activities and objects. Please review your input.")
             st.stop()
@@ -135,6 +129,30 @@ if "step4_gpt_enrichment" not in st.session_state:
 
 # --- Proceed only if GPT results exist ---
 if "step4_gpt_enrichment" in st.session_state:
+    total_titles = len(titles)
+    labeled_titles = len(st.session_state["step4_gpt_enrichment"])
+    unlabeled_titles = total_titles - labeled_titles
+
+    st.info(f"✅ Labeled titles: {labeled_titles} / {total_titles}")
+    st.info(f"⚠️ Unlabeled titles: {unlabeled_titles} / {total_titles}")
+
+    activity_counter = collections.Counter()
+    object_counter = collections.Counter()
+
+    for row in st.session_state["step4_gpt_enrichment"]:
+        activity_counter.update(row.get("activities", []))
+        object_counter.update(row.get("objects", []))
+
+    if activity_counter:
+        st.subheader("📊 Activity Frequency")
+        activity_df = pd.DataFrame(activity_counter.items(), columns=["Activity", "Count"]).sort_values(by="Count", ascending=False)
+        st.dataframe(activity_df)
+
+    if object_counter:
+        st.subheader("📦 Object Frequency")
+        object_df = pd.DataFrame(object_counter.items(), columns=["Object", "Count"]).sort_values(by="Count", ascending=False)
+        st.dataframe(object_df)
+
     st.subheader("✍️ Review and Edit Enrichments")
 
     activity_options = confirmed_activities
@@ -183,4 +201,3 @@ with cols[0]:
 
 with cols[2]:
     st.page_link("pages/Step 5 - Download results.py", label="Next ➡️")
-

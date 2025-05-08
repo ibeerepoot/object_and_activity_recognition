@@ -11,7 +11,8 @@ st.title("Step 3: Identify Objects")
 st.markdown("""
 The third step identifies concrete object instances, that is, specific entities that appear in your data and instantiate one of the previously verified object types.
 We will use gpt-4.1 to generate a list of possibly relevant objects, with corresponding object types. 
-Please review them and edit them where necessary, as well as unchecking the ones that are irrelevant for you to analyze your work processes.
+Please review them and edit them where necessary, e.g., change the text or the associated object type. 
+Uncheck the ones that you consider duplicates or that are irrelevant for you to analyze your work processes.
 """)
 
 # --- Pull processed data ---

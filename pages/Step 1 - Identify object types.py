@@ -79,7 +79,7 @@ Output:
 st.title("Step 1: Identify Object Types")
 
 st.markdown("""
-This first step focuses on identifying relevant object types, i.e., general categories of entities that are relevant in a process.
+This first step focuses on identifying relevant object types, i.e., general categories of entities that are relevant in your work, which can be people and things.
 """)
 
 user_type = st.session_state.get("user_type", "")
