@@ -26,13 +26,13 @@ In addition, we will ask you to verify a small set of titles that GPT-4.1 associ
 Once downloaded, you are kindly requested to send the resulting JSON file to the researchers manually.  
 **No data is submitted automatically.** 
 
-Before we begin, please let us know how you're using the app:
+Before we begin, please let us know if you'd like to make use of a set of predefined object types and activities:
 """)
 
 # --- User Type Selection ---
 user_type = st.radio(
-    "Are you...",
-    ("A participant in our research evaluation (Academic Staff)", "Another user"),
+    "Make use of predefined set of object types and activities: ",
+    ("Yes", "No"),
     key="user_type_selection"
 )
 
@@ -45,7 +45,7 @@ if st.button("Continue"):
 # --- Input fields shown only after user type confirmed ---
 if st.session_state.get("user_type_confirmed"):
 
-    if user_type == "A participant in our research evaluation (Academic Staff)":
+    if user_type == "Yes":
         st.session_state["profession"] = "Academic staff"
         st.info("👨‍🏫 Your profession has been set to 'Academic staff'.")
     else:

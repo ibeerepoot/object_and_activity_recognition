@@ -39,6 +39,11 @@ if not all(k in st.session_state for k in required_keys):
 # --- Extract Data ---
 summary_df = st.session_state["step3_summary_df"]
 titles = summary_df["Title"].tolist()
+
+# Limit to 100 random titles to speed up processing
+if len(titles) > 100:
+    titles = random.sample(titles, 100)
+
 profession = st.session_state["profession"]
 api_key = st.session_state["api_key"]
 objects_df = st.session_state["step3_objects_df"]
