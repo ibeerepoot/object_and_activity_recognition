@@ -32,7 +32,7 @@ You are an assistant specialized in semantic object recognition. Your task is to
 ### Guidelines
 - Output only lowercase string literals.
 - Do not include any explanation or commentary.
-- Include a broad range of object types that are reasonably relevant to the profession
+- Include a broad range of object types that are reasonably relevant to the profession.
 - Ensure object types are distinct and profession-relevant.
 
 ### Output Format
@@ -115,7 +115,7 @@ if user_type == "Yes":
         st.balloons()
 
 else:
-    st.markdown("You will generate a customized list of object types based on your profession."\
+    st.markdown("You will generate a customized list of object types based on your profession. "\
         "Please review them and reflect on whether are likely to appear in your work. " \
         "You may add additional types or delete ones that are irrelevant in your work context."
     )

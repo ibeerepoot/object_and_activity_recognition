@@ -20,7 +20,7 @@ You will be guided through a series of steps that support the interactive discov
 
 #### 🧪 Evaluation Participants
 If you are taking part in the research evaluation led by *Iris Beerepoot, Vinicius Stein Dani,* and *Xixi Lu*,  
-please enruse you follow the app to the final step (**Step 5**) where you can view and download your results. 
+please ensure you follow the app to the final step (**Step 5**) where you can view and download your results. 
 These results will contain the generated object types, activities and objects, as well as the edits you made. 
 In addition, we will ask you to verify a small set of titles that GPT-4.1 associated with one or more activities and objects.
 Once downloaded, you are kindly requested to send the resulting JSON file to the researchers manually.  

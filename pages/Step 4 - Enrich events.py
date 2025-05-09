@@ -138,25 +138,25 @@ if "step4_gpt_enrichment" in st.session_state:
     labeled_titles = len(st.session_state["step4_gpt_enrichment"])
     unlabeled_titles = total_titles - labeled_titles
 
-    st.info(f"✅ Labeled titles: {labeled_titles} / {total_titles}")
-    st.info(f"⚠️ Unlabeled titles: {unlabeled_titles} / {total_titles}")
+    #st.info(f"✅ Labeled titles: {labeled_titles} / {total_titles}")
+    #st.info(f"⚠️ Unlabeled titles: {unlabeled_titles} / {total_titles}")
 
-    activity_counter = collections.Counter()
-    object_counter = collections.Counter()
+    #activity_counter = collections.Counter()
+    #object_counter = collections.Counter()
 
-    for row in st.session_state["step4_gpt_enrichment"]:
-        activity_counter.update(row.get("activities", []))
-        object_counter.update(row.get("objects", []))
+    #for row in st.session_state["step4_gpt_enrichment"]:
+    #    activity_counter.update(row.get("activities", []))
+    #    object_counter.update(row.get("objects", []))
 
-    if activity_counter:
-        st.subheader("📊 Activity Frequency")
-        activity_df = pd.DataFrame(activity_counter.items(), columns=["Activity", "Count"]).sort_values(by="Count", ascending=False)
-        st.dataframe(activity_df)
+    #if activity_counter:
+    #    st.subheader("📊 Activity Frequency")
+    #    activity_df = pd.DataFrame(activity_counter.items(), columns=["Activity", "Count"]).sort_values(by="Count", ascending=False)
+    #    st.dataframe(activity_df)
 
-    if object_counter:
-        st.subheader("📦 Object Frequency")
-        object_df = pd.DataFrame(object_counter.items(), columns=["Object", "Count"]).sort_values(by="Count", ascending=False)
-        st.dataframe(object_df)
+    #if object_counter:
+    #    st.subheader("📦 Object Frequency")
+    #    object_df = pd.DataFrame(object_counter.items(), columns=["Object", "Count"]).sort_values(by="Count", ascending=False)
+    #    st.dataframe(object_df)
 
     st.subheader("✍️ Review and Edit Enrichments")
 

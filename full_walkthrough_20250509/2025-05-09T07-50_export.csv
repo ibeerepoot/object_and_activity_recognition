@@ -1,0 +1,56 @@
+﻿object,object_type,Confirm
+"Beerepoot, I.M. (Iris)",colleagues,false
+"Reijers, H.A. (Hajo)",colleagues,true
+"Stein Dani, V. (Vinicius)",colleagues,true
+"Lu, X. (Xixi)",colleagues,true
+"Schilder, D.C. (Damian)",students,true
+"Braakman, M.A.J. (Mari)",colleagues,true
+"Zuijderwijk, A.J.H. (Jos)",colleagues,true
+Floris Reinders,colleagues,true
+Clemens Bos,colleagues,true
+Academische Vaardigheden (INFOAVA),courses,true
+BPM Course 2024 - 2025 (INFOBPM),courses,true
+Information Systems,courses,false
+Informatica Software Project,courses,true
+BPM Optimization assignment,assignments,true
+BPM Modelling Assignment,assignments,true
+BPM Exam Remindo,exams,true
+Remindo Resultaten,exams,false
+Master Thesis Long Proposal,publications,false
+AI@HomeCare: Information Systems paper,publications,true
+Interstellar paper,publications,true
+BPM Research Methods book: Literature Review,publications,true
+BPM_2025_paper_17,publications,false
+Object-centric Event Log Automation,publications,true
+Mastering Process Mining Book,publications,true
+AI-Powered Scholar: A Beginner’s Guide to Artificial Intelligence for Academic Writing & Research,publications,false
+WI25,conferences,true
+ECIS BPM track,conferences,true
+ECSCW 2025,conferences,true
+Process Mining Camp 2025,conferences,true
+BPMDS 2025,conferences,true
+ICPM 2025 (7th International Conference on Process Mining),conferences,true
+CoopIS 2024,conferences,true
+Workshop on Personal and Human-Centric Process Mining (PHPM),conferences,true
+AI Lab,committees,true
+OAC Information Science,committees,true
+Dagstuhl,conferences,true
+Department of Information and Computing Sciences (ICS),departments,true
+Universiteit Utrecht,departments,false
+ICS,departments,false
+AWT2OCEL,research_projects,true
+AI@HomeCare,research_projects,true
+Object centric AWT,research_projects,true
+Interstellar Dagstuhl team,research_projects,true
+Event-case correlation app,research_projects,true
+Active Window Tracking Projects,research_projects,true
+forGA,research_projects,false
+Iris April,students,false
+Cas,students,true
+Mari,students,false
+Vinicius,students,false
+Xixi,students,false
+Hajo,students,false
+Promovendi,students,false
+Pioneers,committees,false
+BPM 2025,conferences,true
