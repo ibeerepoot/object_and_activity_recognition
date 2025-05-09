@@ -103,6 +103,10 @@ In this second step, we shift our focus to recognizing relevant activities, i.e.
 user_type = st.session_state.get("user_type", "")
 
 if user_type == "Yes":
+    st.markdown("You are using a predefined list of activities tailored for academic staff. " \
+        "Please review them and reflect on whether are likely to appear in your work."
+        "You may add additional activities (do that first) or delete ones that are irrelevant in your work context.")
+
     if 'predefined_activities_selected' not in st.session_state:
         st.session_state['predefined_activities_selected'] = predefined_activities.copy()
 
@@ -136,6 +140,11 @@ if user_type == "Yes":
         st.success("🎯 Activities confirmed from predefined list!")
         st.balloons()
 else:
+    st.markdown("You will generate a customized list of activities based on your profession and the selected object types. "\
+        "Please review them and reflect on whether are likely to appear in your work. " \
+        "You may add additional activities (do that first) or delete ones that are irrelevant in your work context."
+    )
+
     object_types = st.session_state.get("confirmed_object_types")
     api_key = st.session_state.get("api_key")
     profession = st.session_state.get("profession")

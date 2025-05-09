@@ -82,7 +82,7 @@ user_type = st.session_state.get("user_type", "")
 if user_type == "Yes":
     st.markdown("You are using a predefined list of object types tailored for academic staff. " \
         "Please review them and reflect on whether are likely to appear in your work."
-        "You may add additional types or delete ones that are irrelevant in your work context.")
+        "You may add additional types (do that first) or delete ones that are irrelevant in your work context.")
 
     if 'predefined_selected' not in st.session_state:
         st.session_state['predefined_selected'] = predefined_object_types.copy()
@@ -117,7 +117,7 @@ if user_type == "Yes":
 else:
     st.markdown("You will generate a customized list of object types based on your profession. "\
         "Please review them and reflect on whether are likely to appear in your work. " \
-        "You may add additional types or delete ones that are irrelevant in your work context."
+        "You may add additional types (do that first) or delete ones that are irrelevant in your work context."
     )
 
     profession_input = st.session_state.get("profession", "")

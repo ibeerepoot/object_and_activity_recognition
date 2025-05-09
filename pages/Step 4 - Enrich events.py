@@ -9,7 +9,7 @@ import collections
 # --- Page Setup ---
 st.set_page_config(page_title="Step 4: Enrich Events", layout="centered", initial_sidebar_state="collapsed")
 
-# --- Custom CSS to shrink multiselect pills ---
+# --- Custom CSS ---
 st.markdown("""
     <style>
     .stMultiSelect [data-baseweb="select"] span {
@@ -28,7 +28,7 @@ st.markdown("""
 In this final step, we'll associate your window titles with the most likely objects and activities using GPT-4.1.
 You will be shown a set of random examples for review and correction. 
 Please check if you agree with the associated activities and objects and edit them where necessary, before confirming. 
-After confirming, you will be asked to rate the quality of the activity and object labels. 
+After confirming, you will be asked to rate the quality of the activity and object labels.
 """)
 
 # --- Validate required data ---
@@ -131,17 +131,20 @@ if "step4_gpt_enrichment" in st.session_state:
             objects = st.multiselect("Objects", options=object_options, default=row["objects"], key=f"objects_{i}")
         edited_rows.append({"title": row["title"], "activities": activities, "objects": objects})
 
+    if "step4_data" not in st.session_state:
+        st.session_state["step4_data"] = {}
+
     if st.button("✅ Confirm Event Enrichment"):
-        st.session_state["step4_data"] = {
-            "gpt_suggestions": st.session_state["step4_gpt_enrichment"],
-            "reviewed_sample": edited_rows
-        }
+        st.session_state["step4_data"]["gpt_suggestions"] = st.session_state["step4_gpt_enrichment"]
+        st.session_state["step4_data"]["reviewed_sample"] = edited_rows
         st.success("🎯 Annotations saved!")
         st.balloons()
 
+    if "reviewed_sample" in st.session_state["step4_data"]:
         st.subheader("⭐ Finally, please rate the GPT Labeling Quality")
-        activity_rating = st.slider("How would you rate the quality of the activity labels?", 1, 5, 3)
-        object_rating = st.slider("How would you rate the quality of the object labels?", 1, 5, 3)
+        rating_options = ["very poor", "poor", "fair", "good", "very good"]
+        activity_rating = st.selectbox("How would you rate the quality of the activity labels?", rating_options, key="activity_rating")
+        object_rating = st.selectbox("How would you rate the quality of the object labels?", rating_options, key="object_rating")
         st.session_state["step4_data"]["activity_rating"] = activity_rating
         st.session_state["step4_data"]["object_rating"] = object_rating
         st.success("✅ Thank you for your feedback!")
