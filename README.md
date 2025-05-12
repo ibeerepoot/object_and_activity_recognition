@@ -1,18 +1,14 @@
 # 🎯 Object & Activity Recognition App
 
-[![Streamlit App](https://img.shields.io/badge/Launch%20App-Click%20Here-brightgreen?style=for-the-badge)](https://object-and-activity-recognition.streamlit.app/)
+[![Streamlit App](https://img.shields.io/badge/Launch%20App-Click%20Here-brightgreen?style=for-the-badge)](https://ex-oar.streamlit.app/)
 
 This interactive app helps users extract **object types**, **activities**, and **objects** from unstructured or semi-structured textual data (e.g., window titles), with support from **GPT-4.1** and domain knowledge.
 
-Designed for **academic staff** and **researchers**, the tool supports the generation of **object-centric event logs** for process mining or other analysis purposes.
-
----
+Designed for **desk-oriented workers**, the tool supports the generation of **object-centric event logs** for process mining or other analysis purposes.
 
 ## 🚀 Try the App
 
-👉 [Launch the app](https://object-and-activity-recognition.streamlit.app/)
-
----
+👉 [Launch the app](https://ex-oar.streamlit.app/)
 
 ## 🧠 Key Features
 
@@ -29,8 +25,6 @@ Designed for **academic staff** and **researchers**, the tool supports the gener
 
 - Designed for integration with **object-centric event log generation pipelines**
 
----
-
 ## 📂 How to Use Locally
 
 1. Clone this repo  
@@ -42,20 +36,14 @@ Designed for **academic staff** and **researchers**, the tool supports the gener
 
 Note: You will need a valid OpenAI API key to use GPT-enhanced functionality.
 
----
-
 ## 📢 Citation / Research Use
 This app is part of a research project by Iris Beerepoot, Vinicius Stein Dani, and Xixi Lu.
 Participants in the evaluation study can export their results in the final step and send the JSON file to the research team manually.
-
----
 
 ## 🔐 Data Privacy
 ✅ Your data is used only within the current session
 ✅ All processing happens locally, except for GPT completions
 ✅ No input is stored or shared unless you export it yourself
-
----
 
 ## 🤝 Contributions
 Contributions and feature suggestions are welcome! Please open an issue or submit a pull request.
