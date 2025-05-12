@@ -41,8 +41,11 @@ This app is part of a research project by Iris Beerepoot, Vinicius Stein Dani, a
 Participants in the evaluation study can export their results in the final step and send the JSON file to the research team manually.
 
 ## 🔐 Data Privacy
+
 ✅ Your data is used only within the current session
+
 ✅ All processing happens locally, except for GPT completions
+
 ✅ No input is stored or shared unless you export it yourself
 
 ## 🤝 Contributions
