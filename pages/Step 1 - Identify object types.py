@@ -12,9 +12,17 @@ if "api_key" not in st.session_state or "profession" not in st.session_state:
 
 # --- Predefined Object Types ---
 predefined_object_types = [
-    "courses", "students", "lectures", "assignments", "research projects",
-    "publications", "colleagues", "meetings", "departments", "emails",
-    "exams", "grades", "syllabi", "conferences", "grant applications"
+    "publications",
+    "conferences",
+    "assignments",
+    "departments",
+    "lectures",
+    "committees",
+    "exams",
+    "research_projects",
+    "colleagues",
+    "courses",
+    "students"
 ]
 
 # --- GPT Call ---

@@ -25,15 +25,30 @@ if "api_key" not in st.session_state or "profession" not in st.session_state or 
 
 # --- Predefined Activities for Academic Staff ---
 predefined_activities = [
-    "read and respond to email", "schedule meetings", "attend meetings",
-    "analyze research data", "develop data analysis scripts", "visualize research results",
-    "write research papers", "edit manuscripts", "collaborate on papers in Overleaf",
-    "review and revise manuscripts", "manage references and citations",
-    "submit manuscripts to journals or conferences", "review peer submissions",
-    "prepare conference presentations", "attend and present at conferences",
-    "develop research grant applications", "collaborate with colleagues",
-    "supervise students", "grade assignments", "organize and manage research files",
-    "search scientific literature", "read research publications"
+            "prepare lectures",
+            "deliver lectures",
+            "grade assignments",
+            "grade exams",
+            "supervise students",
+            "develop courses",
+            "publish research",
+            "submit publications",
+            "review publications",
+            "attend conferences",
+            "present at conferences",
+            "organize conferences",
+            "collaborate with colleagues",
+            "participate in committees",
+            "coordinate with departments",
+            "manage research projects",
+            "advise students",
+            "design exams",
+            "evaluate assignments",
+            "update course materials",
+            "develop assignments",
+            "attend department meetings",
+            "prepare for committee meetings",
+            "analyze research data"
 ]
 
 # --- GPT Call to Generate Activities ---
