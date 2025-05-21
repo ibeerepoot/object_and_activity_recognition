@@ -1,0 +1,98 @@
+{
+    "step1": {
+        "profession": "Business finance advisor (self-employed)",
+        "source": "gpt",
+        "original_object_types": [
+            "assets",
+            "reports",
+            "invoices",
+            "budgets",
+            "meetings",
+            "documents",
+            "tax_returns",
+            "financial_statements",
+            "clients",
+            "accounts",
+            "investments",
+            "expenses",
+            "transactions",
+            "liabilities",
+            "contracts"
+        ],
+        "confirmed_object_types": [
+            "assets",
+            "reports",
+            "invoices",
+            "budgets",
+            "meetings",
+            "documents",
+            "tax_returns",
+            "financial_statements",
+            "clients",
+            "accounts",
+            "investments",
+            "explorations",
+            "business relations",
+            "expenses",
+            "transactions",
+            "liabilities",
+            "contracts"
+        ],
+        "added_object_types": [
+            "explorations",
+            "business relations"
+        ],
+        "removed_object_types": []
+    },
+    "step2": {
+        "profession": "Business finance advisor (self-employed)",
+        "source": "gpt",
+        "original_activities": [
+            "analyze financial statements",
+            "prepare reports",
+            "review invoices",
+            "create budgets",
+            "conduct meetings",
+            "draft documents",
+            "prepare tax returns",
+            "manage client accounts",
+            "assess investments",
+            "explore financial opportunities",
+            "maintain business relations",
+            "track expenses",
+            "record transactions",
+            "evaluate assets",
+            "analyze liabilities",
+            "review contracts",
+            "advise clients",
+            "monitor accounts",
+            "reconcile transactions",
+            "plan tax strategies"
+        ],
+        "confirmed_activities": [
+            "analyze financial statements",
+            "prepare reports",
+            "create budgets",
+            "conduct meetings",
+            "draft documents",
+            "manage client accounts",
+            "assess investments",
+            "explore financial opportunities",
+            "maintain business relations",
+            "track expenses",
+            "record transactions",
+            "evaluate assets",
+            "analyze liabilities",
+            "review contracts",
+            "advise clients",
+            "monitor accounts",
+            "reconcile transactions",
+            "plan tax strategies"
+        ],
+        "added_activities": [],
+        "removed_activities": [
+            "review invoices",
+            "prepare tax returns"
+        ]
+    }
+}

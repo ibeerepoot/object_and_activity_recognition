@@ -1,0 +1,84 @@
+{
+    "step1": {
+        "profession": "Bookkeeper at landscape architecture firm",
+        "source": "gpt",
+        "original_object_types": [
+            "timesheets",
+            "equipment",
+            "expenses",
+            "clients",
+            "transactions",
+            "vendors",
+            "employees",
+            "projects",
+            "accounts",
+            "invoices",
+            "materials",
+            "contracts",
+            "budgets",
+            "payments"
+        ],
+        "confirmed_object_types": [
+            "timesheets",
+            "expenses",
+            "clients",
+            "transactions",
+            "vendors",
+            "employees",
+            "projects",
+            "accounts",
+            "invoices",
+            "materials",
+            "holdings",
+            "contracts",
+            "budgets",
+            "payments"
+        ],
+        "added_object_types": [
+            "holdings"
+        ],
+        "removed_object_types": [
+            "equipment"
+        ]
+    },
+    "step2": {
+        "profession": "Bookkeeper at landscape architecture firm",
+        "source": "gpt",
+        "original_activities": [
+            "record transactions",
+            "process invoices",
+            "manage expenses",
+            "verify timesheets",
+            "reconcile accounts",
+            "prepare budgets",
+            "track payments",
+            "coordinate with vendors",
+            "update client records",
+            "monitor project costs",
+            "process payroll for employees",
+            "maintain holdings",
+            "review contracts",
+            "order materials",
+            "generate financial reports"
+        ],
+        "confirmed_activities": [
+            "record transactions",
+            "process invoices",
+            "manage expenses",
+            "verify timesheets",
+            "reconcile accounts",
+            "prepare budgets",
+            "track payments",
+            "coordinate with vendors",
+            "update client records",
+            "monitor project costs",
+            "process payroll for employees",
+            "maintain holdings",
+            "review contracts",
+            "order materials",
+            "generate financial reports"
+        ],
+        "added_activities": [],
+        "removed_activities": []
+    }
+}
