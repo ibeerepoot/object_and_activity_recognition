@@ -1,0 +1,741 @@
+{
+    "step1": {
+        "profession": "Academic staff",
+        "source": "gpt",
+        "original_object_types": [
+            "publications",
+            "assignments",
+            "departments",
+            "classes",
+            "lectures",
+            "committees",
+            "exams",
+            "grades",
+            "research_projects",
+            "administrators",
+            "colleagues",
+            "courses",
+            "students"
+        ],
+        "confirmed_object_types": [
+            "publications",
+            "conferences",
+            "assignments",
+            "departments",
+            "lectures",
+            "committees",
+            "exams",
+            "research_projects",
+            "colleagues",
+            "courses",
+            "students"
+        ],
+        "added_object_types": [
+            "conferences"
+        ],
+        "removed_object_types": [
+            "classes",
+            "grades",
+            "administrators"
+        ]
+    },
+    "step2": {
+        "profession": "Academic staff",
+        "source": "gpt",
+        "original_activities": [
+            "prepare lectures",
+            "deliver lectures",
+            "grade assignments",
+            "grade exams",
+            "supervise students",
+            "develop courses",
+            "publish research",
+            "submit publications",
+            "review publications",
+            "attend conferences",
+            "present at conferences",
+            "organize conferences",
+            "collaborate with colleagues",
+            "participate in committees",
+            "coordinate with departments",
+            "manage research projects",
+            "advise students",
+            "design exams",
+            "evaluate assignments",
+            "update course materials"
+        ],
+        "confirmed_activities": [
+            "prepare lectures",
+            "deliver lectures",
+            "grade assignments",
+            "grade exams",
+            "supervise students",
+            "develop courses",
+            "publish research",
+            "submit publications",
+            "review publications",
+            "attend conferences",
+            "present at conferences",
+            "organize conferences",
+            "collaborate with colleagues",
+            "participate in committees",
+            "coordinate with departments",
+            "manage research projects",
+            "advise students",
+            "design exams",
+            "evaluate assignments",
+            "update course materials",
+            "develop assignments",
+            "attend department meetings",
+            "prepare for committee meetings",
+            "analyze research data"
+        ],
+        "added_activities": [
+            "attend department meetings",
+            "prepare for committee meetings",
+            "develop assignments",
+            "analyze research data"
+        ],
+        "removed_activities": []
+    },
+    "step3": {
+        "total_rows": 10221,
+        "gpt_suggestions": [
+            {
+                "object": "Beerepoot, I.M. (Iris)",
+                "object_type": "colleagues"
+            },
+            {
+                "object": "Reijers, H.A. (Hajo)",
+                "object_type": "colleagues"
+            },
+            {
+                "object": "Stein Dani, V. (Vinicius)",
+                "object_type": "colleagues"
+            },
+            {
+                "object": "Lu, X. (Xixi)",
+                "object_type": "colleagues"
+            },
+            {
+                "object": "Schilder, D.C. (Damian)",
+                "object_type": "colleagues"
+            },
+            {
+                "object": "Braakman, M.A.J. (Mari)",
+                "object_type": "colleagues"
+            },
+            {
+                "object": "Zuijderwijk, A.J.H. (Jos)",
+                "object_type": "colleagues"
+            },
+            {
+                "object": "Floris Reinders",
+                "object_type": "colleagues"
+            },
+            {
+                "object": "Clemens Bos",
+                "object_type": "colleagues"
+            },
+            {
+                "object": "Academic Skills for Interdisciplinary Studies Review",
+                "object_type": "courses"
+            },
+            {
+                "object": "BPM Course 2024 - 2025",
+                "object_type": "courses"
+            },
+            {
+                "object": "Information Systems",
+                "object_type": "courses"
+            },
+            {
+                "object": "Informatica Software Project",
+                "object_type": "courses"
+            },
+            {
+                "object": "Optimization assignment",
+                "object_type": "assignments"
+            },
+            {
+                "object": "Group Assignment",
+                "object_type": "assignments"
+            },
+            {
+                "object": "BPM_Exam_Questions_AI_generated",
+                "object_type": "exams"
+            },
+            {
+                "object": "Remindo Resultaten",
+                "object_type": "exams"
+            },
+            {
+                "object": "Master Thesis Long Proposal",
+                "object_type": "publications"
+            },
+            {
+                "object": "AI@HomeCare: Information Systems paper",
+                "object_type": "publications"
+            },
+            {
+                "object": "Interstellar paper",
+                "object_type": "publications"
+            },
+            {
+                "object": "BPM Research Methods book: Literature Review",
+                "object_type": "publications"
+            },
+            {
+                "object": "BPM_2025_paper_17",
+                "object_type": "publications"
+            },
+            {
+                "object": "Object-centric Event Log Automation",
+                "object_type": "publications"
+            },
+            {
+                "object": "Mastering Process Mining Book",
+                "object_type": "publications"
+            },
+            {
+                "object": "AI-Powered Scholar: A Beginner\u2019s Guide to Artificial Intelligence for Academic Writing & Research",
+                "object_type": "publications"
+            },
+            {
+                "object": "WI25",
+                "object_type": "conferences"
+            },
+            {
+                "object": "ECIS BPM track",
+                "object_type": "conferences"
+            },
+            {
+                "object": "ECSCW 2025 - Identifying Cooperative Activities Using Active Window Tracking",
+                "object_type": "conferences"
+            },
+            {
+                "object": "Process Mining Camp 2025",
+                "object_type": "conferences"
+            },
+            {
+                "object": "BPMDS 2025",
+                "object_type": "conferences"
+            },
+            {
+                "object": "ICPM 2025 (7th International Conference on Process Mining)",
+                "object_type": "conferences"
+            },
+            {
+                "object": "CoopIS 2024",
+                "object_type": "conferences"
+            },
+            {
+                "object": "Workshop on Personal and Human-Centric Process Mining (PHPM)",
+                "object_type": "conferences"
+            },
+            {
+                "object": "AI Lab bijeenkomst 27 mei",
+                "object_type": "committees"
+            },
+            {
+                "object": "OAC Information Science",
+                "object_type": "committees"
+            },
+            {
+                "object": "Dagstuhl",
+                "object_type": "committees"
+            },
+            {
+                "object": "Department of Information and Computing Sciences",
+                "object_type": "departments"
+            },
+            {
+                "object": "Universiteit Utrecht",
+                "object_type": "departments"
+            },
+            {
+                "object": "ICS",
+                "object_type": "departments"
+            },
+            {
+                "object": "AWT2OCEL",
+                "object_type": "research_projects"
+            },
+            {
+                "object": "AI@HomeCare",
+                "object_type": "research_projects"
+            },
+            {
+                "object": "Object centric AWT",
+                "object_type": "research_projects"
+            },
+            {
+                "object": "Interstellar Dagstuhl team",
+                "object_type": "research_projects"
+            },
+            {
+                "object": "Event-case correlation app",
+                "object_type": "research_projects"
+            },
+            {
+                "object": "Active Window Tracking Projects",
+                "object_type": "research_projects"
+            },
+            {
+                "object": "forGA",
+                "object_type": "research_projects"
+            },
+            {
+                "object": "Iris April",
+                "object_type": "students"
+            },
+            {
+                "object": "Cas",
+                "object_type": "students"
+            },
+            {
+                "object": "Mari",
+                "object_type": "students"
+            },
+            {
+                "object": "Vinicius",
+                "object_type": "students"
+            },
+            {
+                "object": "Xixi",
+                "object_type": "students"
+            },
+            {
+                "object": "Hajo",
+                "object_type": "students"
+            },
+            {
+                "object": "Promovendi",
+                "object_type": "students"
+            },
+            {
+                "object": "Pioneers",
+                "object_type": "committees"
+            },
+            {
+                "object": "BPM 2025",
+                "object_type": "conferences"
+            }
+        ],
+        "confirmed_objects": [
+            {
+                "object": "Reijers, H.A. (Hajo)",
+                "object_type": "colleagues"
+            },
+            {
+                "object": "Stein Dani, V. (Vinicius)",
+                "object_type": "colleagues"
+            },
+            {
+                "object": "Lu, X. (Xixi)",
+                "object_type": "colleagues"
+            },
+            {
+                "object": "Schilder, D.C. (Damian)",
+                "object_type": "students"
+            },
+            {
+                "object": "Braakman, M.A.J. (Mari)",
+                "object_type": "colleagues"
+            },
+            {
+                "object": "Zuijderwijk, A.J.H. (Jos)",
+                "object_type": "colleagues"
+            },
+            {
+                "object": "Floris Reinders",
+                "object_type": "colleagues"
+            },
+            {
+                "object": "Clemens Bos",
+                "object_type": "colleagues"
+            },
+            {
+                "object": "Academische Vaardigheden (INFOAVA)",
+                "object_type": "courses"
+            },
+            {
+                "object": "BPM Course 2024 - 2025 (INFOBPM)",
+                "object_type": "courses"
+            },
+            {
+                "object": "Informatica Software Project",
+                "object_type": "courses"
+            },
+            {
+                "object": "BPM Optimization assignment",
+                "object_type": "assignments"
+            },
+            {
+                "object": "BPM Modelling Assignment",
+                "object_type": "assignments"
+            },
+            {
+                "object": "BPM Exam Remindo",
+                "object_type": "exams"
+            },
+            {
+                "object": "AI@HomeCare: Information Systems paper",
+                "object_type": "publications"
+            },
+            {
+                "object": "Interstellar paper",
+                "object_type": "publications"
+            },
+            {
+                "object": "BPM Research Methods book: Literature Review",
+                "object_type": "publications"
+            },
+            {
+                "object": "Object-centric Event Log Automation",
+                "object_type": "publications"
+            },
+            {
+                "object": "Mastering Process Mining Book",
+                "object_type": "publications"
+            },
+            {
+                "object": "WI25",
+                "object_type": "conferences"
+            },
+            {
+                "object": "ECIS BPM track",
+                "object_type": "conferences"
+            },
+            {
+                "object": "ECSCW 2025",
+                "object_type": "conferences"
+            },
+            {
+                "object": "Process Mining Camp 2025",
+                "object_type": "conferences"
+            },
+            {
+                "object": "BPMDS 2025",
+                "object_type": "conferences"
+            },
+            {
+                "object": "ICPM 2025 (7th International Conference on Process Mining)",
+                "object_type": "conferences"
+            },
+            {
+                "object": "CoopIS 2024",
+                "object_type": "conferences"
+            },
+            {
+                "object": "Workshop on Personal and Human-Centric Process Mining (PHPM)",
+                "object_type": "conferences"
+            },
+            {
+                "object": "AI Lab",
+                "object_type": "committees"
+            },
+            {
+                "object": "OAC Information Science",
+                "object_type": "committees"
+            },
+            {
+                "object": "Dagstuhl",
+                "object_type": "conferences"
+            },
+            {
+                "object": "Department of Information and Computing Sciences (ICS)",
+                "object_type": "departments"
+            },
+            {
+                "object": "AWT2OCEL",
+                "object_type": "research_projects"
+            },
+            {
+                "object": "AI@HomeCare",
+                "object_type": "research_projects"
+            },
+            {
+                "object": "Object centric AWT",
+                "object_type": "research_projects"
+            },
+            {
+                "object": "Interstellar Dagstuhl team",
+                "object_type": "research_projects"
+            },
+            {
+                "object": "Event-case correlation app",
+                "object_type": "research_projects"
+            },
+            {
+                "object": "Active Window Tracking Projects",
+                "object_type": "research_projects"
+            },
+            {
+                "object": "Cas",
+                "object_type": "students"
+            },
+            {
+                "object": "BPM 2025",
+                "object_type": "conferences"
+            }
+        ]
+    },
+    "step4": {
+        "gpt_suggestions": [
+            {
+                "title": "ICPM 2025 List of Submissions and 3 more pages - School - Microsoft\u200b Edge",
+                "activities": [
+                    "review publications",
+                    "attend conferences",
+                    "present at conferences",
+                    "organize conferences"
+                ],
+                "objects": [
+                    "ICPM 2025 (7th International Conference on Process Mining)"
+                ]
+            },
+            {
+                "title": "Chat | Iris / Xixi / Vinicius - Fun projects :) | Universiteit Utrecht | i.m.beerepoot@uu.nl | Microsoft Teams",
+                "activities": [
+                    "collaborate with colleagues"
+                ],
+                "objects": [
+                    "Lu, X. (Xixi)",
+                    "Stein Dani, V. (Vinicius)"
+                ]
+            },
+            {
+                "title": "AI Lab bijeenkomst 27 mei and 2 more pages - School - Microsoft\u200b Edge",
+                "activities": [
+                    "participate in committees"
+                ],
+                "objects": [
+                    "AI Lab"
+                ]
+            },
+            {
+                "title": "Pas antwoordmodel aan - Universiteit Utrecht - Remindo Afnameomgeving and 3 more pages - School - Microsoft\u200b Edge",
+                "activities": [
+                    "design exams"
+                ],
+                "objects": [
+                    "BPM Exam Remindo"
+                ]
+            },
+            {
+                "title": "ECIS - File Explorer",
+                "activities": [
+                    "attend conferences"
+                ],
+                "objects": [
+                    "ECIS BPM track"
+                ]
+            },
+            {
+                "title": "BPM Research Methods book: Literature Review - Online LaTeX Editor Overleaf and 1 more page - School - Microsoft\u200b Edge",
+                "activities": [
+                    "publish research",
+                    "submit publications"
+                ],
+                "objects": [
+                    "BPM Research Methods book: Literature Review"
+                ]
+            },
+            {
+                "title": "Interstellar Dagstuhl team notes - Google Docs and 5 more pages - School - Microsoft\u200b Edge",
+                "activities": [
+                    "manage research projects",
+                    "collaborate with colleagues"
+                ],
+                "objects": [
+                    "Interstellar Dagstuhl team"
+                ]
+            },
+            {
+                "title": "ICS | Update teacher and 2 more pages - School - Microsoft\u200b Edge",
+                "activities": [
+                    "coordinate with departments"
+                ],
+                "objects": [
+                    "Department of Information and Computing Sciences (ICS)"
+                ]
+            },
+            {
+                "title": "CAT supportsite: Digitaal toetsen met Remindo | Login Remindo and 5 more pages - School - Microsoft\u200b Edge",
+                "activities": [
+                    "design exams",
+                    "grade exams"
+                ],
+                "objects": [
+                    "BPM Exam Remindo"
+                ]
+            },
+            {
+                "title": "Group sessie (fysiek) Process Science - Hajo Reijers (Software-Informatica) - Meeting - Calendar",
+                "activities": [
+                    "collaborate with colleagues"
+                ],
+                "objects": [
+                    "Reijers, H.A. (Hajo)"
+                ]
+            },
+            {
+                "title": "3 - Identify objects.py - AWT2OCEL App - Visual Studio Code",
+                "activities": [
+                    "manage research projects"
+                ],
+                "objects": [
+                    "AWT2OCEL"
+                ]
+            },
+            {
+                "title": "Process Mining Camp 2025 - School - Microsoft\u200b Edge",
+                "activities": [
+                    "attend conferences",
+                    "present at conferences",
+                    "organize conferences"
+                ],
+                "objects": [
+                    "Process Mining Camp 2025"
+                ]
+            },
+            {
+                "title": "WI25 - ConfTool Pro - BrowseAssignedPapers and 2 more pages - School - Microsoft\u200b Edge",
+                "activities": [
+                    "review publications",
+                    "attend conferences",
+                    "organize conferences"
+                ],
+                "objects": [
+                    "WI25"
+                ]
+            }
+        ],
+        "reviewed_sample": [
+            {
+                "title": "Group sessie (fysiek) Process Science - Hajo Reijers (Software-Informatica) - Meeting - Calendar",
+                "activities": [
+                    "collaborate with colleagues",
+                    "attend department meetings"
+                ],
+                "objects": [
+                    "Reijers, H.A. (Hajo)",
+                    "Department of Information and Computing Sciences (ICS)"
+                ]
+            },
+            {
+                "title": "3 - Identify objects.py - AWT2OCEL App - Visual Studio Code",
+                "activities": [
+                    "manage research projects",
+                    "analyze research data"
+                ],
+                "objects": [
+                    "AWT2OCEL"
+                ]
+            },
+            {
+                "title": "Chat | Iris / Xixi / Vinicius - Fun projects :) | Universiteit Utrecht | i.m.beerepoot@uu.nl | Microsoft Teams",
+                "activities": [
+                    "collaborate with colleagues"
+                ],
+                "objects": [
+                    "Lu, X. (Xixi)",
+                    "Stein Dani, V. (Vinicius)"
+                ]
+            },
+            {
+                "title": "CAT supportsite: Digitaal toetsen met Remindo | Login Remindo and 5 more pages - School - Microsoft\u200b Edge",
+                "activities": [
+                    "design exams",
+                    "grade exams"
+                ],
+                "objects": [
+                    "BPM Exam Remindo"
+                ]
+            },
+            {
+                "title": "Interstellar Dagstuhl team notes - Google Docs and 5 more pages - School - Microsoft\u200b Edge",
+                "activities": [
+                    "manage research projects",
+                    "collaborate with colleagues"
+                ],
+                "objects": [
+                    "Interstellar Dagstuhl team",
+                    "Interstellar paper"
+                ]
+            },
+            {
+                "title": "Pas antwoordmodel aan - Universiteit Utrecht - Remindo Afnameomgeving and 3 more pages - School - Microsoft\u200b Edge",
+                "activities": [
+                    "grade exams"
+                ],
+                "objects": [
+                    "BPM Exam Remindo"
+                ]
+            },
+            {
+                "title": "Process Mining Camp 2025 - School - Microsoft\u200b Edge",
+                "activities": [
+                    "attend conferences",
+                    "present at conferences"
+                ],
+                "objects": [
+                    "Process Mining Camp 2025"
+                ]
+            },
+            {
+                "title": "ICS | Update teacher and 2 more pages - School - Microsoft\u200b Edge",
+                "activities": [
+                    "coordinate with departments"
+                ],
+                "objects": [
+                    "Department of Information and Computing Sciences (ICS)"
+                ]
+            },
+            {
+                "title": "AI Lab bijeenkomst 27 mei and 2 more pages - School - Microsoft\u200b Edge",
+                "activities": [
+                    "participate in committees"
+                ],
+                "objects": [
+                    "AI Lab"
+                ]
+            },
+            {
+                "title": "WI25 - ConfTool Pro - BrowseAssignedPapers and 2 more pages - School - Microsoft\u200b Edge",
+                "activities": [
+                    "review publications"
+                ],
+                "objects": [
+                    "WI25"
+                ]
+            },
+            {
+                "title": "ICPM 2025 List of Submissions and 3 more pages - School - Microsoft\u200b Edge",
+                "activities": [
+                ],
+                "objects": [
+                    "ICPM 2025 (7th International Conference on Process Mining)"
+                ]
+            },
+            {
+                "title": "ECIS - File Explorer",
+                "activities": [
+                ],
+                "objects": [
+                    "ECIS BPM track"
+                ]
+            },
+            {
+                "title": "BPM Research Methods book: Literature Review - Online LaTeX Editor Overleaf and 1 more page - School - Microsoft\u200b Edge",
+                "activities": [
+                    "manage research projects"
+                ],
+                "objects": [
+                    "BPM Research Methods book: Literature Review"
+                ]
+            }
+        ]
+    }
+}
