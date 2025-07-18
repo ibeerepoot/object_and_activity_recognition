@@ -26,11 +26,19 @@ Designed for **desk-oriented workers**, the tool supports the generation of **ob
 - Designed for integration with **object-centric event log generation pipelines**
 
 ## 🖼️ Screenshots
-<img width="954" height="878" alt="image" src="https://github.com/user-attachments/assets/c121becd-27dc-4d4f-bad8-105bc17f7af8" />
 
-<img width="707" height="870" alt="image" src="https://github.com/user-attachments/assets/a23d115d-f97c-42db-9d29-36380e3f87d8" />
+# Step 1
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/c121becd-27dc-4d4f-bad8-105bc17f7af8" />
 
-<img width="969" height="712" alt="image" src="https://github.com/user-attachments/assets/3e702fbc-49d8-4bcb-9153-3f6e26cb8664" />
+# Step 2
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/a23d115d-f97c-42db-9d29-36380e3f87d8" />
+
+# Step 3
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/3e702fbc-49d8-4bcb-9153-3f6e26cb8664" />
+
+# Step 4
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/405fdf69-e983-45d0-8f1e-4c4cb449ff52" />
+
 
 ## 📂 How to Use Locally
 
